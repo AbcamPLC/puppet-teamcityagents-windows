@@ -27,6 +27,8 @@ Usage
     	 {
       		 include 'teamcityagents'
      	 }
+     	 
+     	 
 
 2. edit the buildagent.properties.erb to point the agent at your teamcity server.
 
