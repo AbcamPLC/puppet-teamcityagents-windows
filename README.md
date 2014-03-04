@@ -1,4 +1,4 @@
-Puppet-teamcity-agent for windows
+Puppet teamcity agent module for windows
 ==================================
 
 module name teamcityagents
