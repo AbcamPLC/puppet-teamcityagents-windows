@@ -1,0 +1,13 @@
+{
+  "name": "hpaterson-teacmcityagents",
+  "version": "0.1.0",
+  "summary": "",
+  "author": "helen paterson abcam plc",
+  "description": "This module installs a teamcity agent on windows by copying the zip file installer contents to the local directory.\r\n\r\nAddtionally:\r\n\r\n- installs java for the TC agent\r\n- powershell script for creating a windows service\r\n-  places the buildagent.properties config file with the TC server parameters.\r\n\r\nSee the readme.md for more details\r\n\r\npuppet 3.4.2+ agent required",
+  "dependencies": [],
+  "types": [],
+  "checksums": {},
+  "source": "",
+  "project_page": "",
+  "license": ""
+}
