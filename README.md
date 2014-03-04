@@ -1,4 +1,4 @@
 puppet-teamcityagent-windows
 ============================
 
-puppet deplyment of a teamcity windows agent
+puppet deployment of a teamcity windows agent
