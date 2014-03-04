@@ -19,8 +19,8 @@ Usage
       
       if $osfamily == 'windows' {
          File { source_permissions => ignore } 
-         # Puppet defaults to applying the ownership and permissions from the source files.(linux permission
-         } 
+                  } 
+         #Puppet defaults to applying the ownership and permissions from the source files.(linux permission
 
 
 	node 'myteamcityagent.mydomain.com' 
