@@ -1,5 +1,5 @@
-puppet-teamcity
-=====================
+puppet-teamcity-agent for windows
+==================================
 
 This module installs a teamcity agent by copying the zip file installer contents to the local directory and creates a windows service. The teamcity agent does not appear in add/remove programs
 
