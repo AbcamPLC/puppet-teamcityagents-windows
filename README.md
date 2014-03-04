@@ -18,13 +18,15 @@ Usage
 
 
    $posh_cmd = "C:\\Windows\\SysNative\\WindowsPowerShell\\v1.0\\powershell.exe -executionpolicy  remotesigned"
-   $agenthome ="d:\\buildagent" 
-   $javahome ="d:\\buildagent\\jre"
+   $agenthome ="d:\\buildagent"  
+   $javahome ="d:\\buildagent\\jre" 
       
       if $osfamily == 'windows' {
          File { source_permissions => ignore } 
                   } 
-         #Puppet defaults to applying the ownership and permissions from the source files.(linux permission
+         #Puppet defaults to applying the ownership and permissions from the source files.(linux permission)
+         
+         
 
 
 	node 'myteamcityagent.mydomain.com' 
@@ -33,6 +35,7 @@ Usage
      	 }
      	 
      	 
+ 
  
  
  
