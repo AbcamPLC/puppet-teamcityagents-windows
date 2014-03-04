@@ -49,7 +49,7 @@ Requirement
 =============   
 Puppet 3.4.2+ agent required (as file permission puppet changed in this version and there where enhancements to the package installs for windows)
 
-TESTED ON WINDOWS R2
+TESTED ON WINDOWS 2008 R2
 
 
 Service Account Credentials
