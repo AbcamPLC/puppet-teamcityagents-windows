@@ -12,7 +12,9 @@ The zip file installer requires that java be installed; the module will install 
 Usage
 ============
 
-1. Add the following to site.pp
+1. name the module teamcityagents
+
+2. Add the following to site.pp
 
 
    $posh_cmd = "C:\\Windows\\SysNative\\WindowsPowerShell\\v1.0\\powershell.exe -executionpolicy  remotesigned"
@@ -34,13 +36,13 @@ Usage
  
  
  
-2. edit the buildagent.properties.erb to point the agent at your teamcity server.
+3. edit the buildagent.properties.erb to point the agent at your teamcity server.
 
-3. edit $agenthome To change the teamcity install directory
+4. edit $agenthome To change the teamcity install directory
 
-4. edit $javahome To change the java install directory
+5. edit $javahome To change the java install directory
 
-5. change \\myfileserver\\Installers in java.pp you the location of your java media
+6. change \\myfileserver\\Installers in java.pp you the location of your java media
 
 
 Teamcity version 8.1, agent build 29879 - replace the modules files with the distribution zip if you require a different version
