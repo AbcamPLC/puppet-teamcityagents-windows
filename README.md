@@ -1,4 +1,4 @@
-puppet-teamcity-agent for windows
+Puppet-teamcity-agent for windows
 ==================================
 
 This module installs a teamcity agent by copying the zip file installer contents to the local directory and creates a windows service. The teamcity agent does not appear in add/remove programs
@@ -29,7 +29,9 @@ Usage
      	 }
      	 
      	 
-
+ 
+ 
+ 
 2. edit the buildagent.properties.erb to point the agent at your teamcity server.
 
 3. edit $agenthome To change the teamcity install directory
@@ -45,18 +47,15 @@ Teamcity version 8.1, agent build 29879 - replace the modules files with the dis
 
 Requirement
 =============   
-    
-puppet 3.4.2+ agent required (as file permission puppet changed in this version and there where enhancements to the package installs for windows)
+Puppet 3.4.2+ agent required (as file permission puppet changed in this version and there where enhancements to the package installs for windows)
 
 TESTED ON WINDOWS R2
 
 
-
 Service Account Credentials
 =============================
-to run the teamcity agent as another user 
+To run the teamcity agent as another user 
 edit   exec { "TCserviceaccount" &  exec { 'SetTClogonServiceRights': &    exec { "TCaccountpermission":
-
 
 
 
@@ -68,7 +67,7 @@ You must manually authorize the teamcity build agent on the teamcity server
 
 
 Powershell script acknowlegement
-=====================================
+=================================
 
 http://gallery.technet.microsoft.com/scriptcenter/Grant-Log-on-as-a-service-11a50893
 
